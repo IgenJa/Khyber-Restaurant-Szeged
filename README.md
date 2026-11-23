@@ -36,6 +36,19 @@ C:\xampp\php\php.exe -S localhost:8000
 
 A magyar az alapértelmezett nyelv. Az angol változat: `http://localhost:8000/index.php?lang=en`
 
+## Vercel
+
+A Vercel nem futtat PHP-t. Ezért az `index.php` nem oldalként nyílik meg, hanem a böngésző letölti a fájlt.
+
+A bemutatóhoz ezért van két kész HTML oldal is:
+
+- `index.html` — magyar
+- `en.html` — angol
+
+Ezeket töltsd fel újra a Vercelre a többi fájllal együtt. Utána a cím így nyílik meg: [https://khyber-restaurant-szeged.vercel.app](https://khyber-restaurant-szeged.vercel.app)
+
+A telefonszám, a cím és a nyitvatartás a Vercelen nem a `config.php`-ból jön. Ezek a Rackhostos, PHP-s változaton szerkeszthetők.
+
 ## Feltöltés Rackhostra
 
 1. Lépj be a Rackhost fájlkezelőjébe vagy FTP-re.
